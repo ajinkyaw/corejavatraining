@@ -18,7 +18,13 @@ public class Booking {
 
 	public void setBookingId(int bookingId) {
 		this.bookingId = bookingId;
+
 	}
+
+	
+	
+		
+	//new changes made
 
 	public int getFlightNo() {
 		return flightNo;
@@ -35,8 +41,7 @@ public class Booking {
 	public void setCustomerId(int customerId) {
 		this.customerId = customerId;
 	}
-	//this is booking class
-	//gfdgdgbhg
+
 	
 	
 
