@@ -35,6 +35,8 @@ public class Booking {
 	public void setCustomerId(int customerId) {
 		this.customerId = customerId;
 	}
+	//this is booking class
+	//gfdgdgbhg
 	
 	
 
