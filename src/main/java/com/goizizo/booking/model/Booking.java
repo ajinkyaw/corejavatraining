@@ -26,6 +26,7 @@ public class Booking {
 		
 	//new changes made
 
+	
 	public int getFlightNo() {
 		return flightNo;
 	}
