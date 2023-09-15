@@ -19,3 +19,8 @@ public class FlightBookingNewApplication extends SpringBootServletInitializer{
 	 
 	
 }
+
+class rujG
+{
+	
+}
