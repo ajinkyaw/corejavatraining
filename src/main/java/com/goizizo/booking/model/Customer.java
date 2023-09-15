@@ -7,4 +7,13 @@ public class Customer {
 	String customerName;
 	String emaiId;
 	
+	//changes in customer
+	
+	void printData() {
+	
+	System.out.println("Customer Class");
+	
+	}
+	
+	
 }
