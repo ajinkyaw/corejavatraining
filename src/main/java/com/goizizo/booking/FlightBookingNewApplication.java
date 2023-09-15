@@ -15,6 +15,10 @@ public class FlightBookingNewApplication extends SpringBootServletInitializer{
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
 		return application.sources(FlightBookingNewApplication.class);
+	}
+
+	public static void main(String[] args) {
+		SpringApplication.run(FlightBookingNewApplication.class, args);
 	}	
 	 
 	
