@@ -18,6 +18,7 @@ public class Booking {
 
 	public void setBookingId(int bookingId) {
 		this.bookingId = bookingId;
+		System.out.println("Id is set");
 	}
 
 	public int getFlightNo() {

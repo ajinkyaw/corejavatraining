@@ -26,6 +26,7 @@ public class Flight {
 
 	public void setFlightId(int flightId) {
 		this.flightId = flightId;
+		System.out.println("Flight Id set");
 	}
 
 	public String getFlightDeptCity() {
