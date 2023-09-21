@@ -1,3 +1,4 @@
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -5,14 +6,16 @@
 </head>
 <body>
     <h2>Login Form</h2>
-    <form action="/login-api" method="post">
+    <form:form modelAttribute ="login" action="/login-api" method="post">
         <label for="username">Username:</label>
-        <input type="text" id="username" name="username" required><br><br>
-
+        <form:input path="username" type="text" id="username" name="username"/><br><br>
+		<form:errors path="username"/>
+		
         <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required><br><br>
+        <form:input path="password" type="password" id="password" name="password"/><br><br>
+		<form:errors path="password"/>
 
-        <input type="submit" value="Register">
-    </form>
+        <input type="submit" value="Register"/>
+    </form:form>
 </body>
 </html>
